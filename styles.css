@@ -4,8 +4,19 @@ font-size:20vw;
 }
 #magnet1 {
 float:left;
+ 
 }
 
 #magnet2 {
 float:right;
+
+}
+/* make transom ease in ease out to atrract both magnets to center using "left:px; right:px; in the transition" */
+#magnet1 #magnet2 {
+background-color:black;
+border-radius: 50% 10% 4% / 10% 17%;
+}
+#lemon {
+ border-radius: 70% 120% 30% / 14% 140%;
+/* make img clip with lemon */
 }
