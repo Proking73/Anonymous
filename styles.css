@@ -2,3 +2,10 @@ h1 {
 font-size:20vw;
  color:green;
 }
+#magnet1 {
+float:left;
+}
+
+#magnet2 {
+float:right;
+}
