@@ -3,20 +3,37 @@ font-size:20vw;
  color:green;
 }
 #magnet1 {
-float:left;
- 
-}
-
-#magnet2 {
-float:right;
+float: left;
+left: 0px;
 
 }
+#magnet1:hover {
+    transition: left 2s ease-out;
+    left: calc(45vw/2.1);
+}
+/*use media to make if phone size width then less vw also use meta*/
+ #magnet2 {
+float: right;
+right: 0px;
+
+}
+/*make if hover:before or element:before has default location not animate back*/
+#magnet2:hover {
+    transition: right 2s ease-out;
+    right: calc(45vw/2.1);
+}
+
 /* make transom ease in ease out to atrract both magnets to center using "left:px; right:px; in the transition" */
-#magnet1 #magnet2 {
-background-color:black;
+#magnet1, #magnet2 {
+display:inline-block;
+position: relative;
+background-color:rgba(0, 0, 0, 0.164);
 border-radius: 50% 10% 4% / 10% 17%;
 }
 #lemon {
  border-radius: 70% 120% 30% / 14% 140%;
 /* make img clip with lemon */
+}
+body {
+    text-align: center;
 }
