@@ -7,7 +7,7 @@ float: left;
 left: 0px;
 
 }
-#magnet1:hover {
+#forHover:hover #magnet1 {
     transition: left 2s ease-out;
     left: calc(45vw/2.1);
 }
@@ -18,7 +18,7 @@ right: 0px;
 
 }
 /*make if hover:before or element:before has default location not animate back*/
-#magnet2:hover {
+#forHover:hover #magnet2 {
     transition: right 2s ease-out;
     right: calc(45vw/2.1);
 }

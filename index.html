@@ -3,17 +3,28 @@
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
 <style>
-
 </style>
+
 </head>
 <body>
 
 <!-- <h1>StyleSheet changes vh</h1>
  -->
- <div>
+ <label >Name:</label>
+ <input type="text" id="add_to">
+ <button onclick="nameRun()">add to</button>
+ <p id="name"></p>
+ <div id="forHover">
   <div id="magnet1">magnet1</div>
   <div id="magnet2">magnet2</div>
 </div>
+<script>
+  function nameRun() {
+    var You = {name:document.getElementById("add_to").value};
+document.getElementById("name").innerHTML = "Your name: " + You.name;
+//document.write("sda" + run);  
 
+  }
+</script>
 </body>
 </html>
