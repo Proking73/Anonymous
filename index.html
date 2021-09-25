@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="learning.js" defer>
+  
+  </script>
   <link rel="stylesheet" type="text/css" href="styles.css">
 <style>
 </style>
@@ -10,21 +13,18 @@
 
 <!-- <h1>StyleSheet changes vh</h1>
  -->
- <label >Name:</label>
+ <label id="NameLabel">Name:</label>
  <input type="text" id="add_to">
  <button onclick="nameRun()">add to</button>
- <p id="name"></p>
+ <p id="FirstName"></p>
+ <p id="FavCol"></p>
+ 
+ <!--experiment with all the html events-->
  <div id="forHover">
   <div id="magnet1">magnet1</div>
   <div id="magnet2">magnet2</div>
 </div>
-<script>
-  function nameRun() {
-    var You = {name:document.getElementById("add_to").value};
-document.getElementById("name").innerHTML = "Your name: " + You.name;
-//document.write("sda" + run);  
-
-  }
-</script>
+<br>
+<p id="mouseover" onmouseover="bgColor()"><span>bgColor</span></p>
 </body>
 </html>
