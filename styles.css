@@ -23,7 +23,7 @@ right: 0px;
     right: calc(45vw/2.1);
 }
 
-/* make transom ease in ease out to atrract both magnets to center using "left:px; right:px; in the transition" */
+/* make transom ease in ease out to attract both magnets to center using "left:px; right:px; in the transition" */
 #magnet1, #magnet2 {
 display:inline-block;
 position: relative;
