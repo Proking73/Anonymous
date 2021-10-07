@@ -2,6 +2,45 @@ h1 {
 font-size:20vw;
  color:green;
 }
+input:active {
+    background-color:lightgoldenrodyellow;
+} 
+/*//
+//*/
+/*box-sizing: border-box; what is?*/
+/*#firstChildren:hover .notHover {
+    background: red;
+}
+#firstChildren :first-child {
+    width: 100px;
+    height: 100px;
+    background: red;
+    z-index: 0;
+}
+#firstChildren :not(:first-child) {
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 255, 0);
+}*/
+/*.notHover {
+    display: inline-block;
+    background: #000;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    transition: 0.4s;
+  }
+  
+  #firstChildren:hover .notHover {
+    opacity: 0.3;
+  }
+  
+  .firstChildren .notHover:hover {
+    opacity: 1;
+  }*/
+/*//
+//*/
 #magnet1 {
 float: left;
 left: 0px;
