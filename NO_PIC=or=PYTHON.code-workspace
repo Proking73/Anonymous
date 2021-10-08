@@ -9,5 +9,8 @@
 		{
 			"path": "..\\Pwil Files"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Anonymous"
+	}
 }

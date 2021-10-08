@@ -4,7 +4,42 @@ font-size:20vw;
 }
 input:active {
     background-color:lightgoldenrodyellow;
+}
+#info {
+    z-index: 0;
+}
+.border-boxExx {
+    margin: 1vh;
+    background-color: lightcoral;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: lightgreen 22px solid;
+    text-align: center;
 } 
+.itempad-1 {
+    transform: rotate(40deg);
+    box-sizing: border-box;
+}
+.itempad-2 {
+    transform: rotate(320deg);
+    box-sizing: content-box;
+}
+#vertical {
+    z-index: 1;
+    position: absolute;
+    transform: rotate(10deg);
+    color: rgb(6, 102, 161);
+    font-weight: bold;
+    /*writing-mode: vertical-lr;*/
+
+}
+#vertical::after {
+    content: open-quote;
+}
+#vertical::before {
+    content: open-quote;
+}
 /*//
 //*/
 /*box-sizing: border-box; what is?*/
