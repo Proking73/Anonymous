@@ -42,3 +42,7 @@ function windoweeOpen() {
       );
       //can only resize the window open tabs, cant resize if have multiple tabs.
   }
+ document.addEventListener('click', function(){
+   console.log('test');
+ })
+  
