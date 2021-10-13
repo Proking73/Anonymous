@@ -5,6 +5,9 @@ font-size:20vw;
 input:active {
     background-color:lightgoldenrodyellow;
 }
+body {
+background-color:hsl(173, 91%, 89%);
+}
 #info {
     z-index: 0;
 }
