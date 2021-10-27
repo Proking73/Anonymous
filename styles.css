@@ -7,7 +7,7 @@ input:active {
 }
 body {
 /*  background-color:hsl(173, 91%, 89%);*/
- background-color:linear-gradient(yellow, white);
+ background-color:linear-gradient(45deg, hsl(60, 100%, 40%), hsl(0, 0%, 100%));;
 }
 #info {
     z-index: 0;
