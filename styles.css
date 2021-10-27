@@ -6,7 +6,8 @@ input:active {
     background-color:lightgoldenrodyellow;
 }
 body {
-background-color:hsl(173, 91%, 89%);
+/*  background-color:hsl(173, 91%, 89%);*/
+ background-color:linear-gradient(yellow, white);
 }
 #info {
     z-index: 0;
