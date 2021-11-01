@@ -45,4 +45,4 @@ function windoweeOpen() {
  document.addEventListener('click', function(){
    console.log('test');
  })
-  
+  window.alert("y u hackin' me?");
