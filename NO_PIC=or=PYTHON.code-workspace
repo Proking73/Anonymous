@@ -12,6 +12,10 @@
 		{
 			"name": "J",
 			"path": "..\\J"
+		},
+		{
+			"name": "form",
+			"path": "..\\form"
 		}
 	],
 	"settings": {
