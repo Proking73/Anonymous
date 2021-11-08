@@ -16,6 +16,9 @@
 		{
 			"name": "form",
 			"path": "..\\form"
+		},
+		{
+			"path": "..\\..\\Java"
 		}
 	],
 	"settings": {
