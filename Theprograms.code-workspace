@@ -19,6 +19,10 @@
 		},
 		{
 			"path": "..\\java"
+		},
+		{
+			"name": "python",
+			"path": "..\\..\\Python\\python"
 		}
 	],
 	"settings": {
