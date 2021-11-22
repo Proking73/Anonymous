@@ -18,6 +18,10 @@
 		},
 		{
 			"path": "..\\..\\Python"
+		},
+		{
+			"name": "BOOM",
+			"path": "..\\BOOM"
 		}
 	],
 	"settings": {
