@@ -10,10 +10,6 @@
 			"path": "..\\Pwil Files"
 		},
 		{
-			"name": "form",
-			"path": "..\\form"
-		},
-		{
 			"path": "..\\java"
 		},
 		{
@@ -22,9 +18,13 @@
 		{
 			"name": "BOOM",
 			"path": "..\\BOOM"
+		},
+		{
+			"name": "Chillax",
+			"path": "..\\Chillax"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "BOOM"
+		"liveServer.settings.multiRootWorkspaceName": "Chillax"
 	}
 }
