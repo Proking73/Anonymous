@@ -22,6 +22,9 @@
 		{
 			"name": "Chillax",
 			"path": "..\\Chillax"
+		},
+		{
+			"path": "..\\Parallax"
 		}
 	],
 	"settings": {
