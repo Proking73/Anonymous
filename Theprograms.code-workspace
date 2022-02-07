@@ -24,10 +24,10 @@
 			"path": "..\\Chillax"
 		},
 		{
-			"path": "..\\Parallax"
+			"path": "..\\POVERTY"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Parallax"
+		"liveServer.settings.multiRootWorkspaceName": "POVERTY"
 	}
 }
